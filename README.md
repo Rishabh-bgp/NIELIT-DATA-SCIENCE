@@ -11,7 +11,20 @@ A curated collection of hands-on Jupyter notebooks and scripts covering the foun
 
 Each notebook is self-contained, executable, and focused on core concepts with benchmarks, visualizations, and real-world-style manipulations.
 
-> **Further reading**: See the [Detailed Learning Guide](docs/DETAILED_GUIDE.md) for a recommended study sequence, library roles, common pitfalls, and next-step suggestions. Contribution guidelines are in [CONTRIBUTING.md](CONTRIBUTING.md).
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Detailed Learning Guide](docs/DETAILED_GUIDE.md) | Recommended sequence, library roles, pitfalls, and next steps |
+| [Installation Guide](docs/INSTALLATION.md) | Step-by-step setup instructions |
+| [Usage Guide](docs/USAGE.md) | How to run notebooks and the demo script effectively |
+| [Troubleshooting](docs/TROUBLESHOOTING.md) | Common issues and solutions |
+| [Contributing](CONTRIBUTING.md) | Guidelines for contributions |
+| [Code of Conduct](CODE_OF_CONDUCT.md) | Community standards |
+| [Changelog](CHANGELOG.md) | Project history |
+| [Security](SECURITY.md) | Vulnerability reporting |
+
+Per-library overviews: [numpy/](numpy/README.md) · [pandas/](pandas/README.md) · [matplotlib/](matplotlib/README.md)
 
 ---
 
@@ -36,26 +49,33 @@ NIELIT-DATA-SCIENCE/
 ├── LICENSE
 ├── README.md
 ├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── CHANGELOG.md
+├── SECURITY.md
 ├── requirements.txt
 ├── .gitignore
 ├── docs/
-│   └── DETAILED_GUIDE.md
+│   ├── DETAILED_GUIDE.md
+│   ├── INSTALLATION.md
+│   ├── USAGE.md
+│   └── TROUBLESHOOTING.md
 ├── numpy/
+│   ├── README.md
 │   ├── NumPy_Tutorial_1.ipynb
 │   ├── NumPy_Tutorial_2.ipynb
 │   ├── NumPy_Tutorial_3.ipynb
 │   └── NumPy_Tutorial_4.ipynb
 ├── pandas/
+│   ├── README.md
 │   ├── Pandas_Tutorial_1.ipynb
 │   ├── Pandas_Tutorial_2.ipynb
 │   ├── Pandas_Tutorial_3.ipynb
 │   ├── Pandas_Tutorial_4.ipynb
 │   └── pandas_manipulation_demo.py
 └── matplotlib/
+    ├── README.md
     └── Matplotlib.ipynb
 ```
-
-Notebooks are organized by library for clarity and easier navigation.
 
 ---
 
@@ -95,6 +115,8 @@ jupyter notebook
 # or
 jupyter lab
 ```
+
+For detailed instructions, see the [Installation Guide](docs/INSTALLATION.md) and [Usage Guide](docs/USAGE.md).
 
 Navigate into `numpy/`, `pandas/`, or `matplotlib/` and open the notebooks. Run cells sequentially. Most notebooks were originally authored in Google Colab; they have been cleaned of Colab-specific paths and are fully local-runnable.
 
@@ -152,7 +174,7 @@ Contributions are welcome. Suggested improvements include:
 4. Translating comments or adding multilingual versions.
 5. Further refining the folder structure or adding cross-library examples.
 
-Please open an issue or submit a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. All contributions should maintain the educational, runnable character of the existing material.
+Please open an issue or submit a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. All contributions should maintain the educational, runnable character of the existing material. Please also read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ---
 
