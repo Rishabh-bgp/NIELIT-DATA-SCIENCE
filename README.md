@@ -34,33 +34,36 @@ Each notebook is self-contained, executable, and focused on core concepts with b
 ```
 NIELIT-DATA-SCIENCE/
 ├── LICENSE
-├── README.md                  # This file
+├── README.md
 ├── CONTRIBUTING.md
-├── requirements.txt            # Python dependencies
+├── requirements.txt
 ├── .gitignore
 ├── docs/
-│   └── DETAILED_GUIDE.md         # Extended learning path and concepts
-├── NumPy_Tutorial_1.ipynb      # Speed comparison & fundamentals
-├── NumPy_Tutorial_2.ipynb
-├── NumPy_Tutorial_3.ipynb
-├── NumPy_Tutorial_4.ipynb
-├── Pandas_Tutorial_1.ipynb
-├── Pandas_Tutorial_2.ipynb
-├── Pandas_Tutorial_3.ipynb
-├── Pandas_Tutorial_4.ipynb
-├── Matplotlib.ipynb            # Comprehensive plotting guide
-└── pandas_manipulation_demo.py # Standalone Pandas slicing & column operations demo
+│   └── DETAILED_GUIDE.md
+├── numpy/
+│   ├── NumPy_Tutorial_1.ipynb
+│   ├── NumPy_Tutorial_2.ipynb
+│   ├── NumPy_Tutorial_3.ipynb
+│   └── NumPy_Tutorial_4.ipynb
+├── pandas/
+│   ├── Pandas_Tutorial_1.ipynb
+│   ├── Pandas_Tutorial_2.ipynb
+│   ├── Pandas_Tutorial_3.ipynb
+│   ├── Pandas_Tutorial_4.ipynb
+│   └── pandas_manipulation_demo.py
+└── matplotlib/
+    └── Matplotlib.ipynb
 ```
 
-All notebooks currently live at the repository root for immediate accessibility. Future reorganization into topic-specific directories is welcome via pull request.
+Notebooks are organized by library for clarity and easier navigation.
 
 ---
 
 ## What You Will Learn
 
-- **NumPy**: Array creation, vectorized operations, broadcasting, performance advantages over pure Python, indexing, and mathematical operations.
-- **Pandas**: Series and DataFrame construction, indexing (`.loc` / `.iloc`), data selection, missing-value handling, grouping, reshaping, and practical data wrangling patterns.
-- **Matplotlib**: Figure/axis management, line/bar/scatter plots, customization, subplots, and publication-quality visualization techniques.
+- **NumPy** (`numpy/`): Array creation, vectorized operations, broadcasting, performance advantages over pure Python, indexing, and mathematical operations.
+- **Pandas** (`pandas/`): Series and DataFrame construction, indexing (`.loc` / `.iloc`), data selection, missing-value handling, grouping, reshaping, and practical data wrangling patterns.
+- **Matplotlib** (`matplotlib/`): Figure/axis management, line/bar/scatter plots, customization, subplots, and publication-quality visualization techniques.
 - **Integrated workflow**: How the three libraries complement each other in a typical data-science pipeline.
 
 ---
@@ -93,22 +96,31 @@ jupyter notebook
 jupyter lab
 ```
 
-Open any `*_Tutorial_*.ipynb` or `Matplotlib.ipynb` and run the cells sequentially. Most notebooks were originally authored in Google Colab; they have been cleaned of Colab-specific paths and are fully local-runnable.
+Navigate into `numpy/`, `pandas/`, or `matplotlib/` and open the notebooks. Run cells sequentially. Most notebooks were originally authored in Google Colab; they have been cleaned of Colab-specific paths and are fully local-runnable.
 
 ---
 
 ## Notebook Index
 
+### NumPy (`numpy/`)
 | Notebook | Focus | Key Topics |
 |----------|-------|------------|
 | `NumPy_Tutorial_1.ipynb` | Performance & basics | List vs array speed benchmark, visualization of timing results |
 | `NumPy_Tutorial_2.ipynb` | Array creation & ops | `np.array`, `arange`, `linspace`, arithmetic, broadcasting |
 | `NumPy_Tutorial_3.ipynb` | Indexing & slicing | Advanced indexing, boolean masks, reshaping |
-| `NumPy_Tutorial_4.ipynb` | Linear algebra & utilities | Matrix operations, random generation, statistical functions |
+| `NumPy_Tutorial_4.ipynb` | Sorting & utilities | `argsort`, `argmin`/`argmax`, linked sorting, top-N selection |
+
+### Pandas (`pandas/`)
+| Notebook | Focus | Key Topics |
+|----------|-------|------------|
 | `Pandas_Tutorial_1.ipynb` | Series & DataFrame intro | Creation, basic attributes, simple selection |
 | `Pandas_Tutorial_2.ipynb` | Data inspection & cleaning | `head`/`tail`/`info`/`describe`, handling missing data |
 | `Pandas_Tutorial_3.ipynb` | Selection & transformation | `.loc`, `.iloc`, boolean indexing, `apply`, column operations |
 | `Pandas_Tutorial_4.ipynb` | Aggregation & reshaping | `groupby`, pivot, merge/join patterns |
+
+### Matplotlib (`matplotlib/`)
+| Notebook | Focus | Key Topics |
+|----------|-------|------------|
 | `Matplotlib.ipynb` | Visualization | Line, bar, scatter, histogram, subplots, styling, annotations |
 
 > **Note**: Exact cell-level content may vary slightly; open the notebook for the authoritative sequence of examples. The [Detailed Learning Guide](docs/DETAILED_GUIDE.md) provides additional context for each tutorial.
@@ -117,7 +129,7 @@ Open any `*_Tutorial_*.ipynb` or `Matplotlib.ipynb` and run the cells sequential
 
 ## Scripts
 
-- **`pandas_manipulation_demo.py`**  
+- **`pandas/pandas_manipulation_demo.py`**  
   A self-contained Python script demonstrating:
   - DataFrame construction and index setting
   - Column and row slicing (`.loc` / `.iloc`)
@@ -125,7 +137,7 @@ Open any `*_Tutorial_*.ipynb` or `Matplotlib.ipynb` and run the cells sequential
   
   Run it directly:
   ```bash
-  python pandas_manipulation_demo.py
+  python pandas/pandas_manipulation_demo.py
   ```
 
 ---
@@ -134,11 +146,11 @@ Open any `*_Tutorial_*.ipynb` or `Matplotlib.ipynb` and run the cells sequential
 
 Contributions are welcome. Suggested improvements include:
 
-1. Reorganizing notebooks into `numpy/`, `pandas/`, and `matplotlib/` directories.
-2. Adding explanatory markdown cells or companion `.md` notes for each tutorial.
-3. Including sample datasets where notebooks currently generate synthetic data.
-4. Writing unit tests or verification scripts for key examples.
-5. Translating comments or adding multilingual versions.
+1. Adding explanatory markdown cells or companion `.md` notes for each tutorial.
+2. Including sample datasets where notebooks currently generate synthetic data.
+3. Writing unit tests or verification scripts for key examples.
+4. Translating comments or adding multilingual versions.
+5. Further refining the folder structure or adding cross-library examples.
 
 Please open an issue or submit a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. All contributions should maintain the educational, runnable character of the existing material.
 
