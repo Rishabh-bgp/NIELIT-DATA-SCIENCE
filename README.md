@@ -11,6 +11,8 @@ A curated collection of hands-on Jupyter notebooks and scripts covering the foun
 
 Each notebook is self-contained, executable, and focused on core concepts with benchmarks, visualizations, and real-world-style manipulations.
 
+> **Further reading**: See the [Detailed Learning Guide](docs/DETAILED_GUIDE.md) for a recommended study sequence, library roles, common pitfalls, and next-step suggestions. Contribution guidelines are in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ---
 
 ## Table of Contents
@@ -33,8 +35,11 @@ Each notebook is self-contained, executable, and focused on core concepts with b
 NIELIT-DATA-SCIENCE/
 ├── LICENSE
 ├── README.md                  # This file
+├── CONTRIBUTING.md
 ├── requirements.txt            # Python dependencies
 ├── .gitignore
+├── docs/
+│   └── DETAILED_GUIDE.md         # Extended learning path and concepts
 ├── NumPy_Tutorial_1.ipynb      # Speed comparison & fundamentals
 ├── NumPy_Tutorial_2.ipynb
 ├── NumPy_Tutorial_3.ipynb
@@ -106,7 +111,7 @@ Open any `*_Tutorial_*.ipynb` or `Matplotlib.ipynb` and run the cells sequential
 | `Pandas_Tutorial_4.ipynb` | Aggregation & reshaping | `groupby`, pivot, merge/join patterns |
 | `Matplotlib.ipynb` | Visualization | Line, bar, scatter, histogram, subplots, styling, annotations |
 
-> **Note**: Exact cell-level content may vary slightly; open the notebook for the authoritative sequence of examples.
+> **Note**: Exact cell-level content may vary slightly; open the notebook for the authoritative sequence of examples. The [Detailed Learning Guide](docs/DETAILED_GUIDE.md) provides additional context for each tutorial.
 
 ---
 
@@ -135,7 +140,7 @@ Contributions are welcome. Suggested improvements include:
 4. Writing unit tests or verification scripts for key examples.
 5. Translating comments or adding multilingual versions.
 
-Please open an issue or submit a pull request. All contributions should maintain the educational, runnable character of the existing material.
+Please open an issue or submit a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. All contributions should maintain the educational, runnable character of the existing material.
 
 ---
 
