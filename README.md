@@ -189,8 +189,14 @@ Copyright (c) 2026 Er. Rishabh Aryan
 ## Author
 
 **Er. Rishabh Aryan**  
-Indian Institute of Information Technology, Bhagalpur  
-GitHub: [Rishabh-bgp](https://github.com/Rishabh-bgp)  
+M.Tech (Artificial Intelligence and Data Science)  
+Department of Computer Science and Engineering  
+Indian Institute of Information Technology, Bhagalpur (Bihar)  
+
+**E-mail:** [rishabh.250201011@iiitbh.ac.in](mailto:rishabh.250201011@iiitbh.ac.in)  
+**ORCID:** [0009-0004-7595-9440](https://orcid.org/0009-0004-7595-9440)  
+**GitHub:** [Rishabh-bgp](https://github.com/Rishabh-bgp)  
+
 Focus areas: interpretable machine learning, advanced data-mining pipelines, and predictive engineering analytics.
 
 ---
