@@ -12,7 +12,7 @@ This is an educational repository of Jupyter notebooks and documentation. Securi
 
 If you discover a security vulnerability in any code, notebook, or dependency recommendation in this repository, please report it responsibly.
 
-**Preferred method**: Open a private security advisory on GitHub (if available) or email the maintainer at rishabharyan887@gmail.com with the subject line `[SECURITY] NIELIT-DATA-SCIENCE`.
+**Preferred method**: Open a private security advisory on GitHub (if available) or email the maintainer at rishabh.250201011@iiitbh.ac.in with the subject line `[SECURITY] NIELIT-DATA-SCIENCE`.
 
 Please include:
 - A description of the vulnerability
